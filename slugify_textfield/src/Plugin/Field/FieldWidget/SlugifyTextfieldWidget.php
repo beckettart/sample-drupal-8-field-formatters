@@ -26,7 +26,8 @@ class SlugifyTextfieldWidget extends WidgetBase {
   public function fieldSettingsForm(array $form, FormStateInterface $form_state) {
 
     $element = [];
-    // The key of the element should be the setting name
+
+    // The key of the element should be the setting name.
     $element['separator'] = [
       '#title' => $this->t('Separator'),
       '#type' => 'textfield',

@@ -1,7 +1,6 @@
 <?php
 
 namespace Drupal\rot13_textfield;
-//namespace Drupal\rot13_textfield\Plugin\Field\FieldFormatter\Drupal\rot13_textfield;
 
 /**
  * Class ROT13Textfield
@@ -61,7 +60,7 @@ class ROT13Textfield {
 
     if (!empty($value)) {
       // Flip the $alphabet array instead of having two separate arrays to
-      //manage.
+      // manage.
       $alphabetIndexes = array_flip(self::$alphabet);
 
       $chars = str_split($value);
