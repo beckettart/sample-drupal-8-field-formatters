@@ -1,0 +1,10 @@
+name: Slugify Textfield
+type: module
+description: 'Creates a textfield that converts values into a slug. Requires the <a href="https://github.com/cocur/slugify" target="_blank">cocur/slugify v3.2</a>.'
+package: Field types
+version: '8.x-1.0'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:field
+configure: slugify_textfield.settings

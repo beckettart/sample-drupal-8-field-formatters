@@ -1,0 +1,9 @@
+{
+    "name": "drupal/slugify_textfield",
+    "description": "A textfield where the special characters will be replaced by a specific character.",
+    "type": "drupal-module",
+    "require": {
+        "cocur/slugify": "4.0.0.x-dev"
+    },
+    "license": "GPL-2.0-or-later"
+}

@@ -1,0 +1,58 @@
+# Schema for the configuration files of the Slugify Textfield module.
+
+slugify_textfield.settings:
+  type: config_object
+  label: 'Slugify Textfield settings'
+  mapping:
+    slugify_textfield:
+      type: textfield
+      label: 'Text'
+
+field.storage_settings.slugify_textfield:
+  type: mapping
+  label: 'Slugify Textfield settings'
+  mapping:
+    max_length:
+      type: integer
+      label: 'Maximum length'
+
+field.field_settings.slugify_textfield:
+  type: mapping
+  label: 'Slugify Textfield settings'
+  mapping:
+    separator:
+      type: string
+      label: 'Separator character'
+
+field.value.slugify_textfield:
+  type: mapping
+  label: 'Default value'
+  mapping:
+    value:
+      type: label
+      label: 'Value'
+    format:
+      type: string
+      label: 'Text format'
+
+field.formatter.settings.slugify_textfield:
+  type: mapping
+  label: 'Slugify Textfield separator'
+  mapping:
+    separator:
+      type: string
+      label: 'Separator Character'
+
+field.widget.settings.slugify_textfield:
+  type: mapping
+  label: 'Slugify Textfield display format settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size of textfield'
+    separator:
+      type: string
+      label: 'Separator character'
+    placeholder:
+      type: label
+      label: 'Placeholder'

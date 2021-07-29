@@ -1,0 +1,10 @@
+name: ROT13 Textfield
+type: module
+description: 'Creates a textfield that will have the ROT13 filter applied to it.'
+package: Field types
+version: '8.x-1.0'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:field
+configure: rot13_textfield.settings

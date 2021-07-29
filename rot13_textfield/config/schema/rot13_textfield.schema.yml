@@ -1,0 +1,47 @@
+# Schema for the configuration files of the ROT13 Textfield module.
+
+rot13_textfield.settings:
+  type: config_object
+  label: 'ROT13 Textfield settings'
+  mapping:
+    rot13_textfield:
+      type: textfield
+      label: 'Text'
+
+field.storage_settings.rot13_textfield:
+  type: mapping
+  label: 'ROT13 Textfield settings'
+  mapping:
+    max_length:
+      type: integer
+      label: 'Maximum length'
+
+field.field_settings.rot13_textfield:
+  type: mapping
+  label: 'ROT13 Textfield settings'
+
+field.value.rot13_textfield:
+  type: mapping
+  label: 'Default value'
+  mapping:
+    value:
+      type: label
+      label: 'Value'
+    format:
+      type: string
+      label: 'Text format'
+
+field.formatter.settings.rot13_textfield:
+  type: mapping
+  label: 'ROT13 Textfield display format settings'
+
+field.widget.settings.rot13_textfield:
+  type: mapping
+  label: 'ROT13 Textfield display format settings'
+  mapping:
+    size:
+      type: integer
+      label: 'Size of textfield'
+    placeholder:
+      type: label
+      label: 'Placeholder'

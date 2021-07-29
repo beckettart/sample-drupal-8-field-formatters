@@ -1,0 +1,10 @@
+name: Tooltip Textfield
+type: module
+description: 'Create text that displays a tooltip when a user hovers over it.'
+package: Field types
+version: '8.x-1.0'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:field
+configure: tooltip_textfield.settings

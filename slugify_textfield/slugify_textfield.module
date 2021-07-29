@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * @file
+ * A text field that has special characters replaced by a designated character.
+ */
+

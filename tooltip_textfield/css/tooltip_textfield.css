@@ -1,0 +1,4 @@
+.tooltip-textfield > * {
+  /* Ensures the tooltip will appear on the child element when no custom styles have been applied to the field. */
+  display: inline-block;
+}

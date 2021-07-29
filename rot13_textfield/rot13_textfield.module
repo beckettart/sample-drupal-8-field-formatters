@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * @file
+ * A text field that has a ROT13 filter applied to the value.
+ */
+

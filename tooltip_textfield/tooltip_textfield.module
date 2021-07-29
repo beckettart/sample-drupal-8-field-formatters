@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * A text field that shows a tooltip when the user hovers over the rendered text value.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function tooltip_textfield_theme($existing, $type, $theme, $path) {
+  return [
+    'field__tooltip_textfield' => [
+      'base hook' => 'field',
+      'template' => 'tooltip-textfield',
+      'variables' => ['text' => NULL],
+    ],
+  ];
+}

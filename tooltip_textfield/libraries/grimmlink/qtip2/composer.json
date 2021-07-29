@@ -1,0 +1,29 @@
+{
+  "name": "grimmlink/qtip2",
+  "description": "Shim repository for qTip2",
+  "keywords": [
+    "tooltip",
+    "tooltips",
+    "jquery",
+    "jquery-plugin",
+    "qtip",
+    "qtip2",
+    "simpletip",
+    "craig thompson",
+    "craig michael thompson",
+    "craigsworks",
+    "craga89"
+  ],
+  "homepage": "http://qtip2.com",
+  "bugs": "https://github.com/qTip2/qTip2/issues",
+  "author": {
+    "name": "Craig Michael Thompson",
+    "email": "craig@craigsworks.com",
+    "url": "http://craigsworks.com/"
+  },
+  "license": "MIT",
+  "require": {
+    "components/jquery": ">=1.6.0",
+    "desandro/imagesloaded": ">=3.0.0"
+  }
+}

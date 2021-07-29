@@ -1,0 +1,4 @@
+administer slugify_textfield:
+  title: 'Administer Slugify Textfield fields'
+  description: 'Administer access to module'
+  restrict access: true

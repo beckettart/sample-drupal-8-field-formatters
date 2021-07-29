@@ -1,0 +1,13 @@
+tooltip_textfield:
+  version: 1.x
+  css:
+    theme:
+      libraries/grimmlink/qtip2/dist/jquery.qtip.min.css: {}
+      css/tooltip_textfield.min.css: {}
+  js:
+    libraries/grimmlink/qtip2/dist/jquery.qtip.min.js: {}
+    js/tooltip_textfield.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
